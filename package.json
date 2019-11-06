@@ -17,6 +17,7 @@
     "webpack": "^4.41.2"
   },
   "devDependencies": {
+    "file-loader": "^4.2.0",
     "vue-loader": "^15.7.2",
     "vue-template-compiler": "^2.6.10",
     "webpack-cli": "^3.3.10"

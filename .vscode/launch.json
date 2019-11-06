@@ -13,6 +13,11 @@
         }
     ],
     "skipFiles": [
-        "<node_internals>/**/*.js"
-     ]
+        "<node_internals>/**/*.js",
+        "node_modules/tapable/lib/**/*.js",
+        "node_modules/enhanced-resolve/lib/CachedInputFileSystem.js",
+        "node_modules/neo-async/**/*.js",
+        "node_modules/graceful-fs/**/*.js",
+        "node_modules/enhanced-resolve/lib/createInnerContext.js"
+    ]
 }

@@ -2,10 +2,18 @@ const webpack = require('webpack')
 const VueLoaderPlugin = require('vue-loader/lib/plugin')
 
 let opt = {
-    entry:'./index.vue',
+    entry:'./src/index.vue',
     mode:'development',
     module: {
         rules: [
+          {
+            test: /\.(png|jpe?g|gif)$/i,
+            use: [
+              {
+                loader: 'file-loader',
+              },
+            ],
+          },
           {
             test: /\.vue$/,
             loader: 'vue-loader'
